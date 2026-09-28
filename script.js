@@ -1,0 +1,1 @@
+console.log("Design System Guidelines Portal loaded successfully.");
