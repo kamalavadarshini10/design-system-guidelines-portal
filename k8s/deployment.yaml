@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: design-system-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: design-system
+
+  template:
+    metadata:
+      labels:
+        app: design-system
+
+    spec:
+      containers:
+        - name: design-system-container
+          image: kamalavadarshini/design-system-guidelines-portal:latest
+          ports:
+            - containerPort: 80

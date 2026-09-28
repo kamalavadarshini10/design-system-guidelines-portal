@@ -1,0 +1,10 @@
+---
+- name: Configure Design System Portal
+  hosts: local
+
+  tasks:
+
+    - name: Create deployment information file
+      file:
+        path: /tmp/design-system-deployed.txt
+        state: touch

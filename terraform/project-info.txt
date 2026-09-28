@@ -1,0 +1,10 @@
+Design System Guidelines Portal
+
+This project uses:
+GitHub
+Docker
+Docker Hub
+Kubernetes
+Terraform
+Ansible
+Jenkins
